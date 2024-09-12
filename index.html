@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{
+            background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+
+
+        }
+      #grand_parent {
+        border: 20px red solid;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: blue;
+      }
+
+      #parent {
+        border: 15px blue solid;
+        height: 250px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+      }
+
+      #child {
+        border: 10px green solid;
+        height: 150px;
+        width: 25%;
+        background-color: green;
+      }
+
+
+      /* #grand_parent_1 {
+    border: 20px rgb(0, 0, 0) solid;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+  } */
+    </style>
+  </head>
+  <body>
+    <h1>my name is priya</h1>
+    <h2>my name is priya</h2>
+    <h3>my name is priya</h3>
+    <h4>my name is priya</h4>
+    <h5>my name is priya</h5>
+    <h6>my name is priya</h6>
+    <p>my name is priya</p>
+
+
+    <!-- INTERNAL CSS -->
+    <div id="grand_parent">
+      <div id="parent">
+        <div id="child"></div>
+      </div>
+    </div>
+
+    <!-- INLINE CSS -->
+     <div id="grand_parent" style="border: 20px red solid; height: 400px; display: flex; justify-content: center; align-items: center; background-color: blue;"> 
+        <div id="parent" style="border: 15px blue solid ;height: 250px; width: 50%; display:flex; justify-content: center; align-items: center; background-color: red;"> 
+            <div id="child" style="border: 10px green solid ; height: 150px; width: 25%; background-color: green; ">
+
+            </div>
+         </div>
+
+         <div id="parent" style="border: 15px blue solid ;height: 250px; width: 50%; display:flex; justify-content: center; align-items: center; background-color: red;"> 
+            <div id="child" style="border: 10px green solid ; height: 150px; width: 25%; background-color: green; ">
+
+            </div>
+         </div>
+    </div> 
+
+<!-- EXTERNAL CSS -->
+    <div id="grand_parent_1" >
+        <div id="parent_1">
+          <div id="child_1"></div>
+        </div>
+      </div>
+  </body>
+</html>

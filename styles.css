@@ -1,0 +1,25 @@
+#grand_parent_1 {
+    border: 20px red solid;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+  }
+
+  #parent_1 {
+    border: 15px blue solid;
+    height: 250px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+  }
+
+  #child_1 {
+    border: 10px green solid;
+    height: 150px;
+    width: 25%;
+    background-color: green;
+  }
